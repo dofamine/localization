@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutDescription" datatype="html">
+        <source>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. ... Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content.</source>
+        <target>Потребление кофе в мире постепенно растет. Человека с чашечкой ароматного напитка сейчас можно увидеть в ресторане или небольшом кафе, а еще частенько мы пьем вкусный напиток просто на улице из бумажного стаканчика, на ходу вдыхая аромат бодрости.
+                Кофе бьет рекорды по популярности, ведь даже те, кто не любит горьковатый, немного резкий вкус натурального кофе теперь могут насладиться напитками, которые производят с добавлением ароматизаторов.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHeader" datatype="html">
+        <source>Demo localization project</source>
+        <target>Дэмо-проект локализации приложения</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">greeting to the user</note>
+        <note priority="1" from="meaning">greeting</note>
+      </trans-unit>
+      <trans-unit id="headerDescription" datatype="html">
+        <source>Here is an example of using localization in the app in angular driven approach</source>
+         <target>Вот пример использования локализации в приложении в угловом подходе.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currentTime" datatype="html">
+        <source>current time is: <x id="INTERPOLATION" equiv-text="{{date | date: &apos;fullDate&apos;}}"/></source>
+        <target>Текущее время: <x id="INTERPOLATION" equiv-text="{{date | date: &apos;fullDate&apos;}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="coffeeShop" datatype="html">
+        <source>coffee shop: </source>
+        <target>Магазин кофе: </target>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">21</context>
+                </context-group>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">31</context>
+                </context-group>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">42</context>
+                </context-group>
+      </trans-unit>
+      <trans-unit id="cardDescription" datatype="html">
+        <source>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
+        ... Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content.</source>
+        <target>Кофе - это сваренный напиток, приготовленный из обжаренных кофейных зерен, семян ягод определенных видов Coffea.
+                         ... Кофе темного цвета, горький, слегка кислый и оказывает стимулирующее действие на человека, в первую очередь из-за содержания в нем кофеина.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1030842055339898594" datatype="html">
+        <source>English Version</source>
+        <target>Русская версия</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

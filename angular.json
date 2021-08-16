@@ -13,10 +13,26 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf"
+          },
+          "de": {
+            "translation": "src/locale/messages.de.xlf"
+          },
+          "ru": {
+            "translation": "src/locale/messages.ru.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
+            "aot": true,
             "outputPath": "dist/content-strings",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -59,7 +75,10 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "localize": [
+                "en-US"
+              ]
             }
           },
           "defaultConfiguration": "production"

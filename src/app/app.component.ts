@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { LocationStrategy } from '@angular/common';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'content-strings';
+  titleName = $localize`English Version`;
+  date: number = Date.now();
+
+  constructor(@Inject(LocationStrategy) readonly locationStrategy: LocationStrategy, @Inject(Title) title: Title) {
+    title.setTitle(this.titleName);
+  }
+
+  isActiveLocalization(baseHref: string): boolean {
+    return this.locationStrategy.getBaseHref().includes(baseHref);
+  }
 }

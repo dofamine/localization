@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutDescription" datatype="html">
+        <source>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. ... Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content.</source>
+        <target>La consommation de café dans le monde augmente progressivement. Une personne avec une tasse d'une boisson parfumée peut maintenant être vue dans un restaurant ou un petit café, et souvent nous buvons une délicieuse boisson juste dans la rue dans une tasse en papier, inhalant l'arôme de la gaieté en déplacement.
+                                 Le café bat des records de popularité, car même ceux qui n'aiment pas le goût amer et légèrement âpre du café naturel peuvent désormais savourer des boissons produites avec l'ajout d'arômes.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHeader" datatype="html">
+        <source>Demo localization project</source>
+        <target>Projet de démonstration de localisation d'applications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">greeting to the user</note>
+        <note priority="1" from="meaning">greeting</note>
+      </trans-unit>
+      <trans-unit id="headerDescription" datatype="html">
+        <source>Here is an example of using localization in the app in angular driven approach</source>
+         <target>Voici un exemple d'utilisation de la localisation dans une application dans une approche angulaire.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currentTime" datatype="html">
+        <source>current time is: <x id="INTERPOLATION" equiv-text="{{date | date: &apos;fullDate&apos;}}"/></source>
+        <target>Heure actuelle: <x id="INTERPOLATION" equiv-text="{{date | date: &apos;fullDate&apos;}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="coffeeShop" datatype="html">
+        <source>coffee shop: </source>
+        <target>Café: </target>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">21</context>
+                </context-group>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">31</context>
+                </context-group>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/app.component.html</context>
+                  <context context-type="linenumber">42</context>
+                </context-group>
+      </trans-unit>
+      <trans-unit id="cardDescription" datatype="html">
+        <source>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
+        ... Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content.</source>
+        <target>Le café est une boisson brassée à base de grains de café torréfiés, les graines de certains types de baies de Coffea.
+                                          ... Le café est de couleur sombre, amer, légèrement acide et a un effet stimulant sur les humains, principalement en raison de sa teneur en caféine.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">48,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1030842055339898594" datatype="html">
+        <source>English Version</source>
+        <target>Version Française</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

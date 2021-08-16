@@ -1,0 +1,8 @@
+<ng-container [ngSwitch]="activatedRoute.snapshot.params.id">
+  <h2 *ngSwitchCase="1">Starbucks</h2>
+  <h2 *ngSwitchCase="2">Dream coffee</h2>
+  <h2 *ngSwitchCase="3">Seeds coffee</h2>
+  <p i18n="@@aboutDescription">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. ...
+    Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its
+    caffeine content.</p>
+</ng-container>
